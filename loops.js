@@ -1,12 +1,9 @@
 
 function forLoop(arr) {
   for (let i=0; i < 25; i++){
-    arr.push(
-         if (i === 0) {
-           "I am 1 strange loop."
-         } else {
-           `I am ${i} strange loops.`
-         });
+    let isZero = (i === 0);
+    let val = `I am ${isZero ? "1" : i} strange loop${isZero ? "" : "s"}`;
+    arr.push(val);
   }
   return arr;
 }
