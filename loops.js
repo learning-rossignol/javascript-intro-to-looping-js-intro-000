@@ -7,3 +7,11 @@ function forLoop(arr) {
   }
   return arr;
 }
+
+function whileLoop(n) {
+  let ctr = n
+  while (ctr > 0) {
+    console.log(ctr);
+  }
+  return 'done';
+}
