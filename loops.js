@@ -5,7 +5,7 @@ function forLoop(arr) {
          if (i === 0) {
            "I am 1 strange loop."
          } else {
-           `"I am ${i} strange loops."``
+           `"I am ${i} strange loops."`
          }
   }
   return arr;
